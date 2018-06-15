@@ -1,0 +1,339 @@
+/*Roboto, Helvetica, Gotem*/
+
+/* default */
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.flex-column{
+  flex-direction: column;
+}
+.box-shadow{
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.42);
+}
+/* default */
+
+
+body{
+  margin:0;
+  padding:0;
+}
+*:focus {
+    outline: none;
+}
+header{
+  width:100%;
+  height:10vh;
+  box-shadow: 0 0 12px 0 #000000;
+}
+.main{
+  width:100%;
+  height:90vh;
+  background-color: rgb(245, 247, 250);
+  flex-direction: column;
+}
+span{
+  font-size:14px;
+}
+header span{
+  color:rgb(152, 160, 166);
+  font-family: Roboto;
+}
+#board{
+  font-weight: 500;
+}
+#menu{
+  background: url("../img/grid.svg") center no-repeat;
+  background-size: 16px;
+  padding:36px;
+}
+.flex-item-search{
+  width:25%;
+}
+.flex-item-middle{
+  width:40%;
+}
+.flex-subitem-logo{
+  width:80px;
+}
+.flex-item-right{
+  width:35%;
+  justify-content: flex-end;
+}
+.flex-subitem-right{
+  width:70%;
+}
+.flex-main-top{
+  width: 100%;
+  height:15%;
+}
+.flex-container-main-top{
+  width:100%;
+  height:100px;
+}
+.flex-item-text{
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Roboto";
+}
+.flex-main-top-item-left{
+  width:22%;
+}
+.flex-main-top-item-middle{
+  width:43%;
+}
+.flex-main-top-item-right{
+  width:25%;
+  justify-content: flex-end;
+}
+.flex-main-middle{
+  width:91.5%;
+  height:40%;
+}
+.box-default{
+  border-radius: 4px 4px;
+  background-color: white;
+  padding:25px;
+}
+.flex-main-middle-item-left{
+  width:20%;
+}
+.flex-main-middle-item-middle{
+  width:40%;
+}
+.flex-main-middle-item-right{
+  width:20%;
+}
+.flex-graph-top{
+  width:100%;
+  height:10%;
+}
+.flex-main-bottom{
+  width:90%;
+  height:45%;
+}
+.flex-main-item-info-container{
+  width:100%;
+  height:90%;
+  flex-direction: column;
+}
+.flex-main-bottom-left{
+  flex-direction: column;
+}
+.flex-main-bottom-right{
+  flex-direction: column;
+}
+.flex-main-item-info-left{
+  width:45%;
+}
+.flex-main-item-info-right{
+  width:45%;
+}
+.flex-checkbox-part{
+  width:200px;
+  justify-content: flex-start;
+}
+.bottom-box-default{
+  width:550px;
+  height:150px;
+  border-radius: 4px 4px;
+  background-color: white;
+  padding: 25px;
+}
+.graph-header{
+  font-size: 11px;
+  font-family: "Roboto";
+  font-weight: 500  ;
+  color:rgb(152, 160, 166);
+}
+.option{
+  background: url("../img/more-options.svg") no-repeat center;
+  background-size: 22px;
+  padding:22px 0 22px 22px;
+}
+.button-fixed{
+  position: absolute;
+  padding:  18px 20px;
+  bottom:15px;
+  right:70px;
+  border-radius: 30px;
+  background-color:rgb(74, 134, 255);
+  box-shadow: 0px 0px 12px 0px rgb(74, 134, 255);
+}
+input[type="text"]{
+  width:100px;
+  border:none;
+  background: url("../img/search.svg") no-repeat;
+  background-size: 16px;
+  padding-left:30px;
+}
+::-webkit-input-placeholder {
+   color:rgb(203, 207, 210);
+   font-style: italic;
+   font: "Roboto" sans-serif;
+}
+#bars{
+  background: url("../img/bars.svg") no-repeat center;
+  background-size: 16px;
+  padding: 36px;
+  border-left: 1px solid rgb(240, 242, 245);
+}
+#bell{
+  background: url("../img/bell.png") no-repeat center;
+  background-size: 20px;
+  padding:20px;
+}
+.blue-box{
+  background-color: rgb(74, 134, 255);
+  padding: 6px;
+  border-radius: 4px 4px;
+  box-shadow: 0px 0px 12px 0px rgb(74, 134, 255);
+}
+#star{
+  background: url("../img/star.svg") no-repeat center;
+  background-size: 16px;
+  padding: 16px;
+}
+#planner-header{
+  font:18px sans-serif;
+}
+#planner-text{
+  font-size:11px;
+  color:rgb(158, 160, 163);
+}
+button{
+  width:120px;
+  height:40px;
+}
+.active-button{
+  color:rgb(148, 150, 154);
+  border:1px solid rgb(222, 225, 230);
+  background-color: inherit;
+}
+.non-active-button{
+  color:rgb(83, 87, 90);
+  border:none;
+  background-color: white;
+}
+.radius-left{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.radius-right{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+#xmark{
+  background: url("../img/xmark.png") no-repeat center;
+  background-size: 16px;
+  padding:16px;
+}
+.avatar{
+  background: url("../img/audrey.jpg") no-repeat center;
+  background-size: 28px;
+  padding: 14px;
+  border-radius: 4px 4px;
+}
+.name{
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+}
+.time{
+  color:rgb(170, 177, 182);
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.progress-bar{
+  width:200px;
+  height:4px;
+}
+.bar-height{
+  height:100%;
+  float: left;
+}
+.blue-progress{
+  background-color: rgb(70, 128, 255);
+}
+.space-progress{
+  background-color: rgb(242, 244, 247);
+  width:4px;
+}
+.red-progress{
+  background-color: rgb(250, 96, 126);
+}
+.grey-progress{
+  background-color: rgb(242, 244, 247);
+}
+.checkbox{
+  -webkit-appearance: none;
+  background: url(../img/square.png) no-repeat center;
+  padding: 8px;
+  background-size: 16px;
+}
+.checkbox:checked{
+  background: url(../img/checked-symbol.png) no-repeat center;
+  padding: 8px;
+  background-size: 16px;
+}
+.document{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+}
+.box-cyan{
+  font-family: Roboto;
+  font-weight: bold;
+  width:55px;
+  height:22px;
+  background-color: rgb(217, 230, 255);
+  color:rgb(71, 134, 255);
+  text-align: center;
+  border-radius: 15px 15px;
+}
+.box-red{
+  font-family: Roboto;
+  font-weight: bold;
+  width:55px;
+  height:22px;
+  background-color: rgb(254, 222, 228);
+  color:rgb(250, 104, 132);
+  text-align: center;
+  border-radius: 15px 15px;
+}
+.box-orange{
+  font-family: Roboto;
+  font-weight: bold;
+  width:55px;
+  height:22px;
+  background-color: rgb(255, 240, 219);
+  color:rgb(253, 180, 77);
+  text-align: center;
+  border-radius: 15px 15px;
+}
+.days{
+  font-size: 10px;
+}
+.document-text{
+  font-size:12px;
+  color:rgb(158, 160, 163);
+}
+.state{
+  align-content: flex-end!important;
+}
+#plus{
+  background: url(../img/plus.png) center no-repeat;
+  background-size: 16px;
+  padding: 8px;
+}
